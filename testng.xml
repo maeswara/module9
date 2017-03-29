@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Learning TestNG"  >
+  <test name="FileUpload" >
+    <classes>
+       <class name="TestCase.UploadFile" />	
+    </classes>
+  </test>
+  <listeners>
+    <listener class-name="TestListners.TestListnerForUploadFile" />
+  </listeners>
+</suite>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="186" started-at="2017-02-21T02:42:27Z" finished-at="2017-02-21T02:42:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="186" started-at="2017-02-21T02:42:27Z" finished-at="2017-02-21T02:42:27Z">
+      <class name="TestCase.AccountCreation">
+        <test-method status="PASS" signature="LoginEbbs(java.lang.String, java.lang.String)[pri:1, instance:TestCase.AccountCreation@174d20a]" name="LoginEbbs" duration-ms="72" started-at="2017-02-21T08:12:27Z" data-provider="LoginAdminTestData" finished-at="2017-02-21T08:12:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AdminUser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PassWord]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginEbbs -->
+        <test-method status="PASS" signature="LoginEbbs(java.lang.String, java.lang.String)[pri:1, instance:TestCase.AccountCreation@174d20a]" name="LoginEbbs" duration-ms="2" started-at="2017-02-21T08:12:27Z" data-provider="LoginAdminTestData" finished-at="2017-02-21T08:12:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AdminUser2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PassWord]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginEbbs -->
+        <test-method status="PASS" signature="CreateRel(java.lang.String, java.lang.String)[pri:2, instance:TestCase.AccountCreation@174d20a]" name="CreateRel" duration-ms="2" started-at="2017-02-21T08:12:27Z" data-provider="TestDataSheet_Accounts" finished-at="2017-02-21T08:12:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FullName1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LastName1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRel -->
+        <test-method status="PASS" signature="CreateRel(java.lang.String, java.lang.String)[pri:2, instance:TestCase.AccountCreation@174d20a]" name="CreateRel" duration-ms="3" started-at="2017-02-21T08:12:27Z" data-provider="TestDataSheet_Accounts" finished-at="2017-02-21T08:12:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FullName2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lastName2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRel -->
+        <test-method status="PASS" signature="CreateMast(java.lang.String, java.lang.String)[pri:3, instance:TestCase.AccountCreation@174d20a]" name="CreateMast" duration-ms="2" started-at="2017-02-21T08:12:27Z" data-provider="TestDataSheet_Accounts" finished-at="2017-02-21T08:12:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rel1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Seg1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateMast -->
+        <test-method status="PASS" signature="CreateMast(java.lang.String, java.lang.String)[pri:3, instance:TestCase.AccountCreation@174d20a]" name="CreateMast" duration-ms="6" started-at="2017-02-21T08:12:27Z" data-provider="TestDataSheet_Accounts" finished-at="2017-02-21T08:12:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rel2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Seg2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateMast -->
+        <test-method status="PASS" signature="CreateAcct(java.lang.String, java.lang.String)[pri:4, instance:TestCase.AccountCreation@174d20a]" name="CreateAcct" duration-ms="1" started-at="2017-02-21T08:12:27Z" data-provider="TestDataSheet_Accounts" finished-at="2017-02-21T08:12:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mast1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prd1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAcct -->
+        <test-method status="PASS" signature="CreateAcct(java.lang.String, java.lang.String)[pri:4, instance:TestCase.AccountCreation@174d20a]" name="CreateAcct" duration-ms="3" started-at="2017-02-21T08:12:27Z" data-provider="TestDataSheet_Accounts" finished-at="2017-02-21T08:12:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mast2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prd2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAcct -->
+      </class> <!-- TestCase.AccountCreation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

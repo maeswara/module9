@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Learning TestNG]">
+  <listeners>
+    <listener class-name="TestListners.TestListnerForUploadFile"/>
+  </listeners>
+  <test name="FileUpload(failed)">
+    <classes>
+      <class name="TestCase.UploadFile">
+        <methods>
+          <include name="ClearPE"/>
+        </methods>
+      </class> <!-- TestCase.UploadFile -->
+    </classes>
+  </test> <!-- FileUpload(failed) -->
+</suite> <!-- Failed suite [Learning TestNG] -->
